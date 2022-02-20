@@ -1,0 +1,106 @@
+html {
+	font-size: 20px;
+	font-family: "Comic Sans MS", sans-serif;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	border-bottom: 1px solid #0006;
+}
+.logo-text {
+	/* font-family: "Comic Sans MS", sans-serif; */
+}
+.container {
+}
+
+.grandmother-cats {
+}
+.cats-cards {
+	display: grid;
+	grid-template-columns: 400px 400px 400px;
+	justify-content: space-evenly;
+	gap: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.card {
+	width: 400px;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow: 0 0 5px 0 black;
+}
+.card img {
+	width: 100%;
+}
+.card p {
+}
+.cat-rating {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px 0 20;
+}
+.cat-rating img {
+	height: 10px;
+}
+main.container {
+
+}
+footer {
+	
+	font-family: sans-serif;
+	padding: 30px;
+	text-align: center;
+	border-top: 1px solid #0006;
+	/* box-shadow: 0 0 5px 0 #0006; */
+}
+
+@media (max-width: 1024px) {
+	header {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.cats-cards {
+		display: grid;
+		grid-template-columns: auto;
+	}
+	.card {
+		width: 100%;
+		height: 100%;
+		
+}
+footer{
+	align-items: center;
+}
+@media (max-width: 720px) {
+	header {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.cats-cards {
+		display: grid;
+		grid-template-columns: auto;
+		
+	}
+	.card {
+		width:100%;
+		height: 100%;
+		
+}
+
+@media (max-width: 540px) {
+	header {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.cats-cards {
+		display: grid;
+		grid-template-columns: auto;
+		
+	}
+	.card {
+		width:100%;
+		height: 100%;
+}
